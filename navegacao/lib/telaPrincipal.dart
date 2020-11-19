@@ -19,9 +19,11 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
           padding: EdgeInsets.all(32),
           child: Column(
             children: <Widget>[
-              RaisedButton(
+              Padding(
+                padding: EdgeInsets.all(15),
+                child: RaisedButton(
                   child: Text(
-                    "Ir para tela secundaria",
+                    "Ir para tela secundaria passando Vieira",
                     style: TextStyle(fontSize: 22, color: Colors.white),
                   ),
                   padding: EdgeInsets.all(15),
@@ -30,10 +32,29 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
                     Navigator.push(
                       context, 
                       MaterialPageRoute(
-                        builder: (context) => TelaSecundaria()
+                        builder: (context) => TelaSecundaria('Vieira')
                       )
                     );
-                  })
+                  }),
+              ),
+              Padding(
+                padding: EdgeInsets.all(15),
+                child: RaisedButton(
+                  child: Text(
+                    "Ir para tela secundaria passando Kaleo",
+                    style: TextStyle(fontSize: 22, color: Colors.white),
+                  ),
+                  padding: EdgeInsets.all(15),
+                  color: Colors.blue,
+                  onPressed: () {
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(
+                        builder: (context) => TelaSecundaria('Kaleo')
+                      )
+                    );
+                  }),
+              ),
             ],
           ),
         ));
