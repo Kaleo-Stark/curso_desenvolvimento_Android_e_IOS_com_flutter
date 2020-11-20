@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:navegacao/telaSecundaria.dart';
-
 class TelaPrincipal extends StatefulWidget {
   @override
   _TelaPrincipalState createState() => _TelaPrincipalState();
@@ -23,36 +21,13 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
                 padding: EdgeInsets.all(15),
                 child: RaisedButton(
                   child: Text(
-                    "Ir para tela secundaria passando Vieira",
-                    style: TextStyle(fontSize: 22, color: Colors.white),
-                  ),
-                  padding: EdgeInsets.all(15),
-                  color: Colors.blue,
-                  onPressed: () {
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(
-                        builder: (context) => TelaSecundaria('Vieira')
-                      )
-                    );
-                  }),
-              ),
-              Padding(
-                padding: EdgeInsets.all(15),
-                child: RaisedButton(
-                  child: Text(
                     "Ir para tela secundaria passando Kaleo",
                     style: TextStyle(fontSize: 22, color: Colors.white),
                   ),
                   padding: EdgeInsets.all(15),
                   color: Colors.blue,
                   onPressed: () {
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(
-                        builder: (context) => TelaSecundaria('Kaleo')
-                      )
-                    );
+                    Navigator.pushNamed(context, "/secundaria");
                   }),
               ),
             ],
