@@ -35,3 +35,12 @@ Na construção desse aplicativo foi utilizado coisas ensinadas na aplicação a
 Na construção desse aplicativo foi utilizado coisas ensinadas nas aplicações anteriores e nesse app foi acrescentado:
 
 * Componentes de entrada de dados.
+
+### 4. Aplicativo com informações sobre uma empresa ficticia
+
+[Clique aqui para visualizar!](https://github.com/Kaleo-Stark/curso_desenvolvimento_Android_e_IOS_com_flutter/tree/main/atm_consultoria)
+
+Na construção desse aplicativo foi utilizado coisas ensinadas nas aplicações anteriores e nesse app foi acrescentado:
+
+* Slider
+* Navegação entre telas
