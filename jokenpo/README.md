@@ -1,16 +1,9 @@
-# jokenpo
+# Jokenpô
 
-A new Flutter project.
+Aplicativo feito em Flutter, proposto pelo curso de [Desenvolvimento Android e IOS com Flutter 2020 -Crie 15 Apps](https://www.udemy.com/course/desenvolvimento-android-e-ios-com-flutter/) da plataforma [Udemy](https://www.udemy.com/). que é o clássico jogo de Jokempô.
 
-## Getting Started
+Na construção desse aplicativo foi utilizado coisas ensinadas na aplicação anterior e nesse app foi acrescentado:
 
-This project is a starting point for a Flutter application.
+* Gesture detector
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ScreenShot](https://github.com/Kaleo-Stark/curso_desenvolvimento_Android_e_IOS_com_flutter/blob/main/jokenpo/images/jokenpo.gif?raw=true)
