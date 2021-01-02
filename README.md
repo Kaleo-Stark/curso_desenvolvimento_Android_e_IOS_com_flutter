@@ -44,3 +44,12 @@ Na construção desse aplicativo foi utilizado coisas ensinadas nas aplicações
 
 * Slider
 * Navegação entre telas
+
+### 5. Aplicativo que imita o jogo de cara ou coroa
+
+[Clique aqui para visualizar!](https://github.com/Kaleo-Stark/curso_desenvolvimento_Android_e_IOS_com_flutter/tree/main/cara_ou_coroa)
+
+Na construção desse aplicativo foi utilizado coisas ensinadas nas aplicações anteriores e nesse app foi acrescentado:
+
+* Rotas e nomeção de rotas
+* Passagem de dados entre telas
