@@ -1,16 +1,9 @@
-# alcool_ou_gasolina
+Aplicativo feito em Flutter, proposto pelo curso de [Desenvolvimento Android e IOS com Flutter 2020 -Crie 15 Apps](https://www.udemy.com/course/desenvolvimento-android-e-ios-com-flutter/) da plataforma [Udemy](https://www.udemy.com/) que calcula qual a melhor opção para o abastecimento de um veiculo flex.
 
-A new Flutter project.
+Para o calculo foi utilizado a formula que se ( ( preço álcool / preço gasolina ) >= 0.7 ) a melhor oção é gasolina, se não a melhor opção é alcool.
 
-## Getting Started
+Na construção desse aplicativo foi utilizado coisas ensinadas nas aplicações anteriores e nesse app foi acrescentado:
 
-This project is a starting point for a Flutter application.
+* Componentes de entrada de dados.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ScreenShot](https://github.com/Kaleo-Stark/curso_desenvolvimento_Android_e_IOS_com_flutter/blob/main/alcool_ou_gasolina/images/calc.gif?raw=true)
