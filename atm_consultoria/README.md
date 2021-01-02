@@ -5,4 +5,4 @@ Na construção desse aplicativo foi utilizado coisas ensinadas nas aplicações
 * Slider
 * Navegação entre telas
 
-![ScreenShot](https://github.com/Kaleo-Stark/curso_desenvolvimento_Android_e_IOS_com_flutter/blob/main/atm_consultoria/images/atm.gif?raw=true)
+![ScreenShot](https://github.com/Kaleo-Stark/curso_desenvolvimento_Android_e_IOS_com_flutter/blob/main/atm_consultoria/imagens/atm.gif?raw=true)
